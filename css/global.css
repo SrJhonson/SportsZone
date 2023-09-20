@@ -1,0 +1,78 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    margin-top: 9rem;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-size: 6.4rem;
+    font-weight: 700;
+    color: var(--one-color);
+}
+
+.max-width {
+    width: 100%;
+    max-width: 150rem;
+    padding: 0 1rem;
+    margin: 0 auto;
+    margin-bottom: 26rem;
+}
+
+.mb-0 {
+    margin-bottom: 0rem;
+}
+
+.mb-s {
+    margin-bottom: 1rem;
+}
+
+.mb-m {
+    margin-bottom: 2rem;
+}
+
+.mb-1 {
+    margin-bottom: 4rem;
+}
+
+.mb-x1 {
+    margin-bottom: 6rem;
+}
+
+@media only screen and (max-width: 1024px) {
+    html {
+        font-size: 60%;
+    }
+
+    h1 {
+        font-size: 6rem;
+    }
+}
+
+@media only screen and (max-width: 858px) {
+    html {
+        font-size: 50%;
+    }
+
+    .max-width {
+        padding: 0 2rem;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    h1 {
+        font-size: 4.2rem;
+    }
+
+}

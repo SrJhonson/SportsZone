@@ -1,0 +1,12 @@
+@import "./global.css";
+@import "./variaveis.css";
+
+@import "./components/basquete.css";
+@import "./components/carrinho.css";
+@import "./components/footer.css";
+@import "./components/futbol.css";
+@import "./components/navbar.css";
+@import "./components/perfil.css";
+@import "./components/skate.css";
+@import "./components/style.css";
+@import "./components/tenis.css";

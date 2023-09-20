@@ -1,0 +1,42 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 12%;
+    z-index: 10;
+    background-color: var(--tree-color);
+}
+
+.navbar .navbar1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .navbar1 .navbar_image {
+    width: 374px;
+    height: 98px;
+    flex-shrink: 0;
+}
+
+.navbar .navbar1 .navbar_pesquisa .pesquisa {
+    display: flex;
+    width: 200px;
+    height: 20px;
+    padding: 11px 7px 10px 344px;
+    justify-content: flex-end;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 2px solid #28CAB8;
+}
+
+.navbar .navbar1 .navbar_pesquisa .navbar_image2 {
+    width: 37px;
+    height: 37px;
+    flex-shrink: 0;
+    align-items: flex-end;
+    justify-content: center;
+    display: flex;
+    position: relative; 
+}
