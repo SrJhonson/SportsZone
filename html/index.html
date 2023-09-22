@@ -14,18 +14,15 @@
 <body>
     <nav class="navbar">
         <div class="navbar1 max-width mb-0">
-            <img class="navbar_image" src="/assets/logo 1.svg" alt="logo" />
+            <a href="/">
+                <img class="logo" src="/assets/logo 1.svg" alt="logo" /></a>
+            <input class="pesquisa" id="searchbar" onkeyup="search_products()" type="text" name="search"
+                placeholder="Pesquisar produtos...">
             <ul class="navbar_pesquisa">
-                
-                <input class="pesquisa" id="searchbar" onkeyup="search_products()" type="text" name="search"
-                    placeholder="Pesquisar produtos..." >
-                    <img class="navbar_image2" src="/assets/icon seach.svg" alt="pesquisar" />
-                    <ul class="list"> 
-                    </ul>
+                <li><a href="./perfil.html"><img class="navbar_image2" src="/assets/icon _person_.svg" alt="perfil" /></a></li>
+                <li><a href="./carrinho.html"><img class="navbar_image3" src="/assets/icon _cart_.svg" alt="carrinho" /></a></li>
+                <li><a href="/"><img class="navbar_image4" src="/assets/icon _menu_.svg" alt="menu_buguer" /></a></li>
             </ul>
-            <img class="navbar_image2" src="/assets/icon _person_.svg" alt="perfil" />
-            <img class="navbar_image2" src="/assets/icon _cart_.svg" alt="carrinho" />
-            <img class="navbar_image2" src="/assets/icon _menu_.svg" alt="menu_buguer" />
         </div>
     </nav>
 
