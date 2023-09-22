@@ -16,8 +16,9 @@
 }
 
 .navbar .navbar1 .logo {
-    width: 350px;
-    height: 50px
+width: 23.375rem;
+height: 6.125rem;
+flex-shrink: 0;
 }
 
 .navbar .navbar1 .navbar_pesquisa li {

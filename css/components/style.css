@@ -87,7 +87,6 @@
     border-color: var(--input-border-hover-color);
   }
   
-  /*Section input*/
   .search-field {
     position: relative;
     width: 100%;
@@ -133,7 +132,6 @@
     color: var(--input-text-hover-color);
   }
   
-  /*Search button*/
   .search-box-icon {
     width: 55px;
     height: 40px;

@@ -1,0 +1,24 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    scroll-margin-top: 20rem;
+}
+
+header .esquerda {
+    max-width: 62rem;
+    flex: 1;
+}
+
+header .esquerda p {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    max-width: 50rem;
+}
+
+header .direita .image {
+    position: relative;
+    line-height: 0;
+}
+
