@@ -1,5 +1,6 @@
 .artigos {
     background-color: var(--two-color);
+    border-radius: 2rem;
     scroll-margin-top: 15rem;
 }
 
@@ -33,4 +34,11 @@
     font-size: 3rem;
     font-weight: 500;
     margin: 2rem 0 1rem;
+}
+
+.text {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 0 auto;
 }
